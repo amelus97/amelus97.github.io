@@ -21,6 +21,7 @@ html {
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, #dfe9f3 0%, var(--blanco) 100%);
 }
 
 .boton {
@@ -45,6 +46,15 @@ body {
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
+}
+
+.sombra {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 0.5rem;
 }
 
 /* Tipografía */
@@ -111,6 +121,7 @@ h1,h2,h3 {
     background-size: cover;
     height: 450px;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero {
@@ -132,6 +143,11 @@ h1,h2,h3 {
 .contenido-hero .ubicacion {
     display: flex;
     align-items: center;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
