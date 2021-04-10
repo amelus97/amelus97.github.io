@@ -76,6 +76,10 @@ body {
     border-radius: 0.5rem;
 }
 
+footer{
+    text-align: center;
+}
+
 /* Tipografía */
 
 h1 {
