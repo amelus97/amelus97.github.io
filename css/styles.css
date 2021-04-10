@@ -22,6 +22,7 @@ html {
 }
 
 .nav-principal,
+.hero,
 .servicio,
 .formulario {
     scroll-snap-align: center;
